@@ -1,0 +1,129 @@
+           
+            body { 
+                background-image: url('http://www.uksoftech.com/wp-content/uploads/2016/02/website-design-background.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+			
+
+            .header {
+				margin: auto;
+				font-size: 40px;
+				font-family: Times New Roman;
+				color: rgba(255,255,255,.8);
+				text-align: center;
+				text-shadow: 2px 2px rgba(0,0,0,1);
+				
+            }
+
+            .page  {
+                background-color:rgba(0,0,0,0.45);
+                margin: auto;
+                width: 1200px;
+			    padding: 25px;
+			    height: 1020px;
+			    top: 200px;
+				float: initial;
+            }
+		   
+		    .page p {
+				background-color:rgba(0,0,0,0.5);
+				padding: 10px;
+			    font-family: Times New Roman;
+			    color: rgba(255,255,255,.8);
+				text-align: center;
+				text-shadow: 2px 2px rgba(0,0,0,1);
+		    }
+			
+			.page a {
+				color: rgba(63,127,191,.75);
+				text-shadow: 2px 2px rgba(0,0,0,1);
+			}
+			
+			table {
+				width: 100%;
+			}
+			
+			table tr th {
+				background-color:rgba(0,0,0,0.25);
+				padding: 10px;
+			    font-family: Times New Roman;
+			    color: rgba(255,255,255,.8);
+				text-align: center;
+				text-shadow: 2px 2px rgba(0,0,0,1);
+			}
+			
+			
+			.left_column {
+				text-align: top;
+				width: 20%;
+				height: 150px;
+				vertical-align: top;
+				padding-right: 10px;
+			}
+			
+			.left_column img{
+				text-align: top;
+				width: 200px;
+				height: 200px;
+				vertical-align: top;
+				padding-right: 10px;
+			}
+			.center_column {
+				text-align: top;
+				width: 60%;
+				height: 150px;
+				vertical-align: top;
+				padding-right: 10px;
+				padding-left: 10px;
+			}
+			
+			.right_column {
+				text-align: top;
+				width: 20%;
+				height: 150px;
+				vertical-align: top;
+				padding-left: 10px;
+			}
+		  
+			.sidebar {
+				float: right;
+				background-color:rgba(0,0,0,0.45);
+				height: 1020px;
+				width: 100px;
+				top: 10px;
+			}
+		  
+		    .menu_bar ul {
+                display: inline;
+                list-style-type: none;
+            }
+
+            .navcontainer ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+                text-align: center;
+            }
+
+            .navcontainer ul li { 
+                display: inline; 
+            }
+
+            .navcontainer ul li a {
+                text-decoration: none;
+                font-family: Times New Roman;
+                font-size: 25px;
+                padding: .2em 1em;
+                color: rgba(255,255,255,.8);
+                background-color:rgba(0,0,0,0.25);
+				text-shadow: 2px 2px rgba(0,0,0,0.5);
+            }
+
+            .navcontainer ul li a:hover {
+                color: #fff;
+                background-color:rgba(0,0,0,0.7);
+            }
+			
+
